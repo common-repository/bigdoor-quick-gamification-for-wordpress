@@ -1,0 +1,79 @@
+/**
+*  BigDoor Media for WordPress - Widget Positioning CSS
+*  
+*  @author Mark Edwards <mark@simplercomputing.net>
+*  @version 0.1.0
+*/
+
+
+/**
+* @package WP-BigDoor
+* @subpackage BigDoor-Widget-Static-CSS
+* 
+* 
+*   Widget CSS for static positioning
+*
+*    This CSS controls the BigDoor widget's ability to float in a screen corner.
+*    To change the look of the widget, edit the widget.css file instead.
+*
+*/
+
+#bd_upperLeftCorner { 
+          display: block;
+          position: fixed;
+          left: 0;
+          top: 50px;
+          overflow: visible;
+          width: 250px;
+          /* height: 300px; */
+          margin: 0 0 0 0;
+          padding: 0;
+          z-index: 9999;
+          border: none;
+          float: none;
+        }
+
+#bd_upperRightCorner { 
+          display: block;
+          position: fixed;
+          right: 0;
+          top: 50px;
+          overflow: visible;
+          width: 250px;
+          /* height: 300px; */
+          margin: 0 0 0 0;
+          padding: 0;
+          z-index: 9999;
+          border: none;
+          float: none;
+        }
+
+#bd_lowerLeftCorner { 
+          display: block;
+          position: fixed;
+          left: 0;
+          bottom: 50px;
+          overflow: visible;
+          width: 250px;
+          /* height: 300px; */
+          margin: 0 0 0 0;
+          padding: 0;
+          z-index: 9999;
+          border: none;
+          float: none;
+        }
+
+#bd_lowerRightCorner { 
+          display: block;
+          position: fixed;
+          right: 0;
+          bottom: 50px;
+          overflow: visible;
+          width: 250px;
+          /* height: 300px; */
+          margin: 0 0 0 0;
+          padding: 0;
+          z-index: 9999;
+          border: none;
+          float: none;
+        }
